@@ -38,6 +38,6 @@ var
     
 "use strict";
 
-myDiv.innerHTML = myInput.value * 3.75;
+myDiv.innerHTML = "Worth " + myInput.value * myCurrency.value + " Egyption Pound ";
 
 };
