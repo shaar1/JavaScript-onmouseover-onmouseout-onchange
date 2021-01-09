@@ -29,11 +29,15 @@ var
 
     myInput = document.getElementById("input"),
 
-    myDiv = document.getElementById("div")
+    myDiv = document.getElementById("div"),
 
-myInput.onchange = function () {
+    myCurrency = document.getElementById("currency");
 
-    "use strict";
+    myCurrency.onchange = function(){
 
-    myDiv.innerHTML = myInput.value * 3.75;
+    
+"use strict";
+
+myDiv.innerHTML = myInput.value * 3.75;
+
 };
