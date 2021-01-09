@@ -12,7 +12,7 @@ myDiv.onmouseover = function(){
 };
 */
 
-
+/*
 var myDiv = document.getElementById("div");
 
 myDiv.onmouseout = function() {
@@ -22,4 +22,18 @@ myDiv.onmouseout = function() {
     myDiv.innerHTML = " You Have Gone";
 
 
+};
+*/
+
+var
+
+    myInput = document.getElementById("input"),
+
+    myDiv = document.getElementById("div")
+
+myInput.onchange = function () {
+
+    "use strict";
+
+    myDiv.innerHTML = myInput.value * 3.75;
 };
